@@ -16,3 +16,92 @@ html {
 *, *::before, *::after {
     box-sizing: inherit;
 }
+
+@media only screen and (min-width: 60em) {
+    
+    html {
+        font-size: 110%;
+    }
+}
+
+@media only screen and (min-width: 90em) {
+    
+    html {
+        font-size: 110%;
+    }
+}
+
+@media only screen and (min-width: 120em) {
+    
+    html {
+        font-size:110;
+    }
+}
+
+body {
+
+    background-color: #e7e5d9;
+}
+
+.masthead {
+    max-height: 3rem;
+    background-image:url(../images/masthead-bg.png);
+    background-repeat: repeat-y 100% no-repeat;
+    padding: .4rem;
+    
+}
+
+.badge {
+    max-width: 2rem;
+    float:left;
+}
+
+.badgeright {
+    max-width: 2rem;
+    float: right;
+}
+
+.logo {
+    max-width: 12em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e7e5d9;
+}
+
+.reward {
+    background-color: #87714f;
+    max-width: 20.560em;
+    color: white;
+}
+
+.woman {
+    max-width: 20em;
+}
+
+.man {
+    max-width: 20em;
+}
+
+.cuffs {
+    max-width: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hat {
+    max-width: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cash {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
