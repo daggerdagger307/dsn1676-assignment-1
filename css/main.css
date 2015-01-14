@@ -46,9 +46,19 @@ body {
 .masthead {
     max-height: 3rem;
     background-image:url(../images/masthead-bg.png);
-    background-repeat: repeat-y 100% no-repeat;
-    padding: .4rem;
-    
+    background-repeat: repeat-y 100% no-repeat;  
+}
+
+.masthead ul {
+    text-align: center;
+}
+
+.wanted {
+    background-color: #e7e5d9;
+    max-width: 15em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
 }
 
 .badge {
@@ -67,14 +77,35 @@ body {
     margin-left: auto;
     margin-right: auto;
     background-color: #e7e5d9;
+    text-align: center;
 }
 
-.reward {
+.poster {
     background-color: #87714f;
     max-width: 20.560em;
     color: white;
     margin-left: auto;
     margin-right: auto;
+}
+
+.wanted li {
+    display: inline-block;
+}
+
+ul li {
+    font-family: serif;
+    font-weight: 100;  
+}
+
+.cash {
+    text-align: center;
+    max-width: 500px;
+    font-weight: 100;
+}
+
+.crimes {
+    font-weight: 100;
+    text-align: center;
 }
 
 .woman {
@@ -106,10 +137,6 @@ body {
     margin-right: auto;
 }
 
-.cash {
-    margin-left: auto;
-    margin-right: auto;
-}
 
 img {
     display: block;
